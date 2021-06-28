@@ -1,0 +1,87 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+</style>
+
+*{
+    font-family: 'Open Sans', sans-serif !important;
+    
+}
+
+body{
+    background: #080B21;
+    width: 100%;
+}
+
+
+.clock{
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.ClockBox{
+    position: relative;
+    margin: 0 5px;
+    display: inline-block;
+
+}
+
+.ClockBox span{
+    position: relative;
+    display: block;
+    width: 100px;
+    height:70px ;
+    background: #2196f3;
+    font-size: 40px;
+    text-transform: uppercase;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.562);
+    font-weight: 500;
+    padding-top: 20px;
+    color: #fff;
+    
+}
+
+.ClockBox span:nth-child(2){
+    border: 0;
+    font-size: 15px;
+    height: 30px;
+    padding-top: 10px;
+    font-weight: 500 !important; 
+    background: #127fd6;
+}
+
+#lastchield span{
+    background: #ff006a;
+}
+
+#lastchield span:last-child{
+    background: ec0062;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+    .ClockBox span {
+        position: relative;
+        display: block;
+        width: 200px;
+        height: 140px;
+        background: #2196f3;
+        font-size: 80px;
+        text-transform: uppercase;
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.562);
+        font-weight: 500;
+        padding-top: 20px;
+        color: #fff;
+    }
+
+
+    
+  }
